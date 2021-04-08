@@ -1,3 +1,97 @@
 body {
-  background-color: antiquewhite;
+  background-color: whitesmoke;
+  margin: 0;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.header-body,
+.footer-body {
+  width: 100%;
+  position: fixed;
+  background: black;
+  padding: 10px 0;
+}
+
+.header-body {
+  top: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.title {
+  float: left;
+  font-size: 1.4vw;
+  padding-left: 1vw;
+  color: gold;
+}
+
+.logo {
+  float: left;
+  padding-left: 5vw;
+  height: 3.6vw;
+  width: 4vw;
+}
+
+nav a {
+  color: gold;
+  text-decoration: none;
+  padding: 1vw 3.5vw;
+  float: right;
+}
+
+.about {
+  text-align: center;
+  font-size: 2vw;
+}
+
+.social-media {
+  float: left;
+  width: 44%;
+  border-color: black;
+  border-style: dotted;
+}
+
+.contact-container {
+  width: 55%;
+  border-color: black;
+  border-style: dotted;
+  float: right;
+  color: black;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-form {
+  font-size: 1.2vw;
+  display: grid;
+  width: 15vw;
+  margin: auto;
+}
+
+.message {
+  height: 6vw;
+}
+
+.send-button {
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  border-radius: 0.5vw;
+  font-size: 1.2vw;
+  width: 5vw;
+  height: 2vw;
+  margin: auto;
+  transition-duration: 0.4s;
+}
+
+.send-button:hover {
+  background-color: black; /* Green */
+  color: gold;
+}
+
+.footer-body {
+  text-align: center;
+  bottom: 0;
+  color: gold;
+  font-size: 0.5vw;
 }
