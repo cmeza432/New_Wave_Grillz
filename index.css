@@ -1,8 +1,8 @@
 body {
   background-color: whitesmoke;
   margin: 0;
-  padding-top: 60px;
-  padding-bottom: 40px;
+  padding-top: 4vw;
+  padding-bottom: 2vw;
 }
 
 .header-body,
@@ -34,6 +34,7 @@ body {
 
 nav a {
   color: gold;
+  font-size: 1vw;
   text-decoration: none;
   padding: 1vw 3.5vw;
   float: right;
@@ -41,31 +42,63 @@ nav a {
 
 .about {
   text-align: center;
+  /* height: 50vw; */
   font-size: 2vw;
 }
 
+.contact {
+  padding-bottom: 23vw;
+}
+
+.social-media-title {
+  text-align: center;
+  font-size: 1.5vw;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: gold;
+}
+
 .social-media {
+  background-color: black;
   float: left;
-  width: 44%;
-  border-color: black;
-  border-style: dotted;
+  width: 45%;
+  height: 23vw;
+}
+
+.social-media img {
+  display: grid;
+  width: 4vw;
+  padding: 0 0 2.44vw 0;
+  margin: auto;
 }
 
 .contact-container {
+  background-color: black;
+  color: gold;
   width: 55%;
-  border-color: black;
-  border-style: dotted;
+  height: 23vw;
   float: right;
   color: black;
   margin: 0 auto;
   text-align: center;
 }
 
+.contact-title {
+  color: gold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5vw;
+  padding-bottom: 1vw;
+}
+
 .contact-form {
+  color: gold;
   font-size: 1.2vw;
   display: grid;
   width: 15vw;
   margin: auto;
+}
+
+.user-email {
+  height: 1.3vw;
 }
 
 .message {
@@ -73,20 +106,14 @@ nav a {
 }
 
 .send-button {
-  background-color: white;
-  border: 2px solid black;
+  background-color: gold;
+  border: 2px solid gold;
   color: black;
   border-radius: 0.5vw;
   font-size: 1.2vw;
   width: 5vw;
   height: 2vw;
   margin: auto;
-  transition-duration: 0.4s;
-}
-
-.send-button:hover {
-  background-color: black; /* Green */
-  color: gold;
 }
 
 .footer-body {
