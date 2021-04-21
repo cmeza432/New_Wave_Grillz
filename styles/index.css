@@ -1,0 +1,191 @@
+body {
+  background-color: aliceblue;
+  margin: 0;
+  padding-top: 2.3vw;
+  padding-bottom: 2vw;
+}
+
+.header-body,
+.footer-body {
+  width: 100%;
+  position: fixed;
+  background: black;
+  padding: 10px 0;
+}
+
+.header-body {
+  top: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.title {
+  float: left;
+  font-size: 1.4vw;
+  padding-left: 1vw;
+  color: lightslategrey;
+}
+
+.logo {
+  float: left;
+  padding-left: 5vw;
+  height: 3.6vw;
+  width: 4vw;
+}
+
+nav a {
+  color: lightslategrey;
+  font-size: 1vw;
+  text-decoration: none;
+  padding: 1vw 3.5vw;
+  float: right;
+}
+
+.banner {
+  text-align: center;
+  background-color: black;
+  height: 28vw;
+}
+
+.banner img {
+  width: 70%;
+  height: 28vw;
+}
+
+.about {
+  width: 100%;
+  padding-top: 3vw;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  padding-bottom: 5vw;
+}
+
+.about h1 {
+  color: lightslategrey;
+  font-size: 4vw;
+}
+
+.about p {
+  font-size: 1.2vw;
+}
+
+.procedure {
+  width: 100%;
+  padding-top: 3vw;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  padding-bottom: 3vw;
+}
+
+.procedure h1 {
+  color: lightslategray;
+  font-size: 2.5vw;
+}
+
+.gallery-1 {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 70%;
+  padding: 0 0 3vw 0;
+}
+
+.gallery-1 li {
+  display: inline-grid;
+  width: 18vw;
+  margin: 0 1vw 0;
+}
+
+.gallery-1 li img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery-1 > img:hover {
+  transform: scale(1.1);
+  transition: 0.25s;
+}
+
+.gallery-1 li > img {
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 16vw;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 0.3vw 1.2vw gold;
+}
+
+.gallery-1 .details {
+  margin-top: 1vw;
+}
+
+.gallery-1 .details .info {
+  display: block;
+  font-size: 0.8vw;
+  color: black;
+  font-weight: bold;
+  margin: 0;
+}
+
+.information {
+  height: 10vw;
+  background-color: black;
+  display: block;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.contact-info {
+  border-style: solid;
+  border-color: black;
+  border-right-color: lightslategray;
+  border-width: 0.1vw;
+  text-align: center;
+  color: white;
+  float: left;
+  width: 50%;
+  height: 80%;
+}
+
+.contact-info p {
+  font-size: 1vw;
+  padding-top: 0.8vw;
+  padding-right: 3vw;
+  float: right;
+  text-align: left;
+}
+
+.social-media {
+  display: grid;
+  float: right;
+  width: 49%;
+}
+
+.social-media p {
+  float: left;
+  font-size: 1vw;
+  color: white;
+  padding-top: 0.8vw;
+  padding-left: 3vw;
+}
+
+.social-media img {
+  width: 1.2vw;
+  padding-left: 3vw;
+}
+
+.footer-body {
+  text-align: center;
+  bottom: 0;
+  color: lightslategray;
+  font-size: 0.4vw;
+}
+
+@media only screen and (max-width: 500px) {
+  .information {
+    height: 6em;
+  }
+  .contact-info {
+    height: 58%;
+  }
+}
