@@ -81,6 +81,11 @@ nav a {
 .procedure h1 {
   color: lightslategray;
   font-size: 2.5vw;
+  padding-bottom: 1vw;
+}
+
+.procedure p {
+  font-size: 1.2vw;
 }
 
 .gallery-1 {
