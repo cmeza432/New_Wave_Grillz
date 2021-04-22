@@ -48,96 +48,71 @@ nav a:hover {
   color: white;
 }
 
-.banner {
+.price {
   text-align: center;
-  background-color: black;
-  height: 28vw;
-}
-
-.banner img {
-  width: 70%;
-  height: 28vw;
-}
-
-.about {
-  width: 100%;
-  padding-top: 3vw;
-  text-align: center;
+  padding-top: 4vw;
+  padding-bottom: 18vw;
+  color: lightslategray;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: bold;
-  padding-bottom: 5vw;
 }
 
-.about h1 {
-  color: lightslategrey;
+.price h1 {
   font-size: 4vw;
 }
 
-.about p {
+.price p {
   font-size: 1.2vw;
-}
-
-.procedure {
-  width: 100%;
-  text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: bold;
-  padding-bottom: 5vw;
-}
-
-.procedure h1 {
-  color: lightslategray;
-  font-size: 2.5vw;
-  padding-bottom: 1vw;
-}
-
-.procedure p {
-  font-size: 1.2vw;
-}
-
-.gallery-1 {
-  margin: 0 auto;
-  text-align: center;
-  max-width: 70%;
-  padding: 0 0 3vw 0;
-}
-
-.gallery-1 li {
-  display: inline-grid;
-  width: 18vw;
-  margin: 0 1vw 0;
-}
-
-.gallery-1 li img {
-  width: 100%;
-  height: auto;
-}
-
-.gallery-1 > img:hover {
-  transform: scale(1.1);
-  transition: 0.25s;
-}
-
-.gallery-1 li > img {
-  display: block;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 16vw;
-  margin: 0;
-  padding: 0;
-  box-shadow: 0 0.3vw 1.2vw black;
-}
-
-.gallery-1 .details {
-  margin-top: 1vw;
-}
-
-.gallery-1 .details .info {
-  display: block;
-  font-size: 0.8vw;
   color: black;
-  font-weight: bold;
-  margin: 0;
+}
+
+.left-container {
+  float: left;
+  text-align: right;
+  padding-right: 3vw;
+  width: 47%;
+  border-color: aliceblue;
+  border-right-color: black;
+  height: 16vw;
+  border-style: solid;
+}
+
+.right-container {
+  float: right;
+  text-align: left;
+  width: 47%;
+}
+
+.left-container h1 {
+  font-size: 2.5vw;
+  color: darkgoldenrod;
+}
+
+.right-container h1 {
+  font-size: 2.5vw;
+  color: silver;
+}
+
+.left-container p {
+  font-size: 1.2vw;
+  color: black;
+}
+
+.right-container p {
+  font-size: 1.2vw;
+  color: black;
+}
+
+.extras {
+  text-align: center;
+}
+
+.extras h1 {
+  font-size: 2.5vw;
+  color: lightslategray;
+}
+
+.extras p {
+  font-size: 1.2vw;
 }
 
 .information {
