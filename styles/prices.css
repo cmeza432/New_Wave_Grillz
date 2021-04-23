@@ -57,7 +57,7 @@ nav a:hover {
 }
 
 .price h1 {
-  font-size: 4vw;
+  font-size: 3.5vw;
 }
 
 .price p {
@@ -79,6 +79,7 @@ nav a:hover {
 .right-container {
   float: right;
   text-align: left;
+  height: 16vw;
   width: 47%;
 }
 
@@ -170,10 +171,23 @@ nav a:hover {
 }
 
 @media only screen and (max-width: 500px) {
+  .price {
+    margin-top: 22vw;
+  }
   .information {
     height: 6em;
   }
   .contact-info {
     height: 58%;
+  }
+  .left-container {
+    height: 25vw;
+  }
+  .right-container {
+    height: 25vw;
+  }
+  .extras {
+    margin-top: 16vw;
+    margin-bottom: 28vw;
   }
 }
