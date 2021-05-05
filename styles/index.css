@@ -5,15 +5,15 @@ body {
   padding-bottom: 2vw;
 }
 
-.header-body,
-.footer-body {
+html {
+  height: 100%;
+}
+
+.header-body {
   width: 100%;
   position: fixed;
   background: black;
   padding: 10px 0;
-}
-
-.header-body {
   top: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -52,11 +52,13 @@ nav a:hover {
   text-align: center;
   background-color: black;
   height: 28vw;
+  padding-top: 2vw;
 }
 
 .banner img {
   width: 70%;
   height: 28vw;
+  opacity: 0.6;
 }
 
 .about {
@@ -71,6 +73,7 @@ nav a:hover {
 .about h1 {
   color: lightslategrey;
   font-size: 4vw;
+  text-shadow: 0.5vw 0.2vw 0.2vw black;
 }
 
 .about p {
@@ -87,8 +90,9 @@ nav a:hover {
 
 .procedure h1 {
   color: lightslategray;
-  font-size: 2.5vw;
+  font-size: 3vw;
   padding-bottom: 1vw;
+  text-shadow: 0.3vw 0.2vw 0.2vw black;
 }
 
 .procedure p {
@@ -175,7 +179,7 @@ nav a:hover {
 }
 
 .social-media p {
-  float: left;
+  text-align: left;
   font-size: 1vw;
   color: white;
   padding-top: 0.8vw;
@@ -185,20 +189,32 @@ nav a:hover {
 .social-media img {
   width: 1.2vw;
   padding-left: 3vw;
+  float: left;
 }
 
 .footer-body {
+  display: grid;
   text-align: center;
-  bottom: 0;
   color: lightslategray;
   font-size: 0.4vw;
+  width: 100%;
+  background: black;
+  position: absolute;
 }
 
 @media only screen and (max-width: 500px) {
+  .banner {
+    padding-top: 6vw;
+  }
   .information {
     height: 6em;
   }
   .contact-info {
     height: 58%;
+  }
+  .footer-body {
+    margin-bottom: 0;
+    margin-top: 25vw;
+    height: 25vw;
   }
 }
